@@ -8,10 +8,8 @@ const DEV_LOCK = {
     "RASHIK69-B8T3Y6-2R7E4H-9K1M5V"    // key 2
   ],
   // Only these origins/referers are allowed (empty = allow all)
-  ALLOWED_ORIGINS: [
-    "https://rashik-six-nine.vercel.app",
-    "https://t.me"                      // telegram webapp
-  ],
+  ALLOWED_ORIGINS: [],
+  
   // Signature salt for HMAC — used to sign responses
   SIGN_SALT: "RASHIK_SIG_2026_x9Qp3Lm7Z",
   // Watermark injected into every response so stolen copies can be traced
