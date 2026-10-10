@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/chkr",  "destination": "/api/chkr" },
+    { "source": "/api/batch", "destination": "/api/chkr" },
+    { "source": "/api",       "destination": "/api/chkr" }
+  ]
+}
